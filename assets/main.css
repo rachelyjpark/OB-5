@@ -1,0 +1,145 @@
+body {
+  height: 150vh;
+width: 100vh;
+  background:#E89E80;
+  margin: 0%;
+}
+
+.text-1 {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+  padding-right: 30%;
+}
+
+.text-2 {
+    position: relative;
+  top: 350px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+ padding-right: 30%;
+}
+
+
+.text-3 {
+  position: relative;
+ top: 650px;
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+ padding-right: 30%;
+}
+
+.text-4 {
+      position: relative;
+  top: 950px;
+ 
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+ padding-right: 30%;
+}
+ .background {
+  background-color: #BCC29D;
+  position: fixed;
+top: 0;
+  bottom: 0;
+left: 0;
+  height: 250vh;
+  width: 15%;
+  border-right: 6px solid black;
+  display: block;
+  text-decoration: none;
+
+}
+
+
+
+@media only screen and (min-width: 800px) {
+  body {
+  height: 150vh;
+width: 100vh;
+  background:#E89E80;
+  margin: 0%;
+}
+.background {
+  background-color: #BCC29D;
+  position: fixed;
+top: 0;
+  bottom: 0;
+left: 0;
+  height: 250vh;
+  width: 15%;
+  border-right: 6px solid black;
+  display: block;
+  text-decoration: none;
+
+}
+.text-1 {
+  position: relative;
+  left: 600px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 19px;
+  padding-left: 10%;
+
+
+}
+.text-2 {
+    position: relative;
+  top: 450px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+ font-size: 30px;
+
+
+}
+  .text-3 {
+  position: relative;
+ top: 850px;
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+   font-size: 30px;
+
+}
+.text-4 {
+      position: relative;
+  top: 1250px;
+ 
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+ font-size: 30px;
+
+    padding-bottom: 20%;
+}
+
+
+}
