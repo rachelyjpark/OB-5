@@ -13,8 +13,8 @@ width: 100vh;
   text-align: center;
   color: white;
   font-family: helvetica;
-  font-size: 18px;
-  padding-right: 30%;
+  font-size: 30px;
+
 }
 
 .text-2 {
@@ -26,7 +26,7 @@ display: flex;
   color: white;
   font-family: helvetica;
   font-size: 18px;
- padding-right: 30%;
+
 }
 
 
@@ -39,7 +39,7 @@ display: flex;
   color: white;
   font-family: helvetica;
   font-size: 20px;
- padding-right: 30%;
+
 }
 
 .text-4 {
@@ -52,7 +52,7 @@ display: flex;
   color: white;
   font-family: helvetica;
   font-size: 20px;
- padding-right: 30%;
+
 }
  .background {
   background-color: #BCC29D;
@@ -92,21 +92,22 @@ left: 0;
 }
 .text-1 {
   position: relative;
-  left: 600px;
+  left: 50%;
   top: 50px;
   display: flex;
   justify-content: center;
   text-align: center;
   color: white;
   font-family: helvetica;
-  font-size: 19px;
-  padding-left: 10%;
+  font-size: 30px;
+
 
 
 }
 .text-2 {
     position: relative;
   top: 450px;
+    left: 50%;
 display: flex;
    justify-content: center;
   text-align: center;
@@ -119,6 +120,7 @@ display: flex;
   .text-3 {
   position: relative;
  top: 850px;
+   left: 50%;
   display: flex;
    justify-content: center;
   text-align: center;
@@ -130,7 +132,7 @@ display: flex;
 .text-4 {
       position: relative;
   top: 1250px;
- 
+   left: 50%;
   display: flex;
    justify-content: center;
   text-align: center;
