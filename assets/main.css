@@ -1,6 +1,6 @@
 body {
   height: 150vh;
-width: 50vh;
+  width: 50vh;
   background:#E89E80;
   margin: 0%;
 }
@@ -14,54 +14,59 @@ width: 50vh;
   justify-content: center;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 30px;
-
 }
 
 .text-2 {
-    position: relative;
+  position: relative;
   top: 350px;
-    left: 400px;
+  left: 400px;
   padding-right: 20%;
-display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 30px;
-
 }
 
 
 .text-3 {
   position: relative;
- top: 650px;
-   left: 400px;
+  top: 650px;
+  left: 400px;
   padding-right: 20%;
   display: flex;
-   justify-content: center;
+  justify-content: center;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 30px;
-
 }
 
 .text-4 {
-      position: relative;
+  position: relative;
   top: 950px;
-   left: 400px;
+  left: 400px;
   padding-right: 20%;
   display: flex;
-   justify-content: center;
+  justify-content: center;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 30px;
-
 }
- .background {
+ 
+.background {
   background-color: #BCC29D;
   position: fixed;
   top: 0;
@@ -72,83 +77,83 @@ display: flex;
   border-right: 6px solid black;
   display: block;
   text-decoration: none;
+}
 
-}
-}
 
 
 @media only screen and (min-width: 800px) {
   body {
-  height: 150vh;
-width: 100vw;
-  background:#E89E80;
-  margin: 0%;
-}
-.background {
-  background-color: #BCC29D;
-  position: fixed;
-top: 0;
-  bottom: 0;
-left: 0;
-  height: 250vh;
-  width: 15%;
-  border-right: 6px solid black;
-  display: block;
-  text-decoration: none;
+    height: 150vh;
+    width: 100vw;
+    background:#E89E80;
+    margin: 0%;
+  }
 
-}
-.text-1 {
-  position: relative;
-  left: 60%;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 30px;
+  .background {
+    background-color: #BCC29D;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 250vh;
+    width: 15%;
+    border-right: 6px solid black;
+    display: block;
+    text-decoration: none;
+  }
 
-
-
-}
-.text-2 {
+  .text-1 {
     position: relative;
-  top: 450px;
     left: 60%;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
- font-size: 30px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  .text-2 {
+    position: relative;
+    top: 450px;
+    left: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
 
-
-}
   .text-3 {
-  position: relative;
- top: 850px;
-   left: 60%;
-  display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-   font-size: 30px;
-
-}
+    position: relative;
+    top: 850px;
+    left: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
 .text-4 {
-      position: relative;
-  top: 1250px;
-   left: 60%;
-  display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
- font-size: 30px;
-
+    position: relative;
+    top: 1250px;
+    left: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
     padding-bottom: 20%;
-}
-
-
+  }
 }
